@@ -1,0 +1,28 @@
+/* Estilos específicos para a página de receitas */
+.receitas-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receitas-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.receitas-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.receitas-list li:last-child {
+    border-bottom: none;
+}
+
+.excluir-receita {
+    color: red;
+    text-decoration: none;
+}
